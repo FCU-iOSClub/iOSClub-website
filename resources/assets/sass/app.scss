@@ -1,9 +1,33 @@
-
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+// @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+// @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+// @import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic");
+// @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300");
+// 
+@import "node_modules/font-awesome/scss/font-awesome";
 
 // Variables
-@import "variables";
-
+// @import "variables";
 // Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "./apple/font.css";
+@import "./guardian/css/animate";
+@import "./guardian/css/icomoon";
+@import "./guardian/css/superfish";
+@import "./guardian/css/style";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+ul,
+ol,
+body {
+    font-family: "AppleEN","AppleTC-Medium", Arial, sans-serif;
+}
+
+
