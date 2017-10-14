@@ -13,4 +13,8 @@
 
 Route::get('/', function () {
     return view('home')->with(['title'=>'iosclub']);
-});
+})->name('home');
+
+Route::get('welcome', function () {
+    return view('welcome');
+})->name('welcome');

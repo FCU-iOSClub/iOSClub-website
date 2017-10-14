@@ -49,7 +49,7 @@
                                             <a class="js-scroll-trigger js-scroll-trigger-active" href="#fh5co-jiaoliu-section">海外交流</a>
                                         </li>
                                         <li>
-                                            <a class="js-scroll-trigger" href="route('welcome.home')">宣傳</a>
+                                            <a class="js-scroll-trigger" href="{{route('welcome')}}">宣傳</a>
                                         </li>
                                         {{--
                                         <li>
