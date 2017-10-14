@@ -8,7 +8,7 @@
     <link type="image/png" href="img/iosclub-logo.png" rel="icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{csrf_token()}}">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
     <script src="js/modernizr-2.6.2.min.js"></script>
 </head>
 
@@ -424,7 +424,7 @@
             </div>
         </div>
     </div>
-    <script src="{{asset('js/app.js')}}"></script>
+    <script src="js/app.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
     <script>
     CLUB.run()
