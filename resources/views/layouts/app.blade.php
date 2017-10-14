@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="csrf-token" content="{{csrf_token()}}">
     <title>{{$title}}</title>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet"> @stack('css')
+    <link href="css/app.css" rel="stylesheet"> @stack('css')
 </head>
 
 <body>
@@ -27,7 +27,7 @@
     @yield('hidden-content')
     <!-- Bootstrap core JavaScript -->
     @stack('scripts')
-    <script src="{{asset('js/app.js')}}"></script>
+    <script src="js/app.js"></script>
     @yield('addon-script')
 </body>
 
