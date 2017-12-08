@@ -573,11 +573,10 @@
     .gift {
       position: absolute;
       right: 5%;
-      top: 50%;
+      top: 55%;
       /*background-color: red;*/
       width: 30%;
       padding-top: 30%;
-      transform: translateY(-50%);
       background-image: url('./img/gift.png');
       background-repeat: no-repeat;
       background-position: center;
@@ -608,7 +607,6 @@
       .gift {
         width: 70%;
         padding-top: 70%;
-        transform: translateY(0);
       }
       .gift-content {
         font-size: 1.2rem;
