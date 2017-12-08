@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="csrf-token" content="{{csrf_token()}}">
-    <title>宣傳</title>
+    <link type="image/png" href="img/iosclub-logo.png" rel="icon" />
+    <title>SITCON x iOS Club 臺中定期聚</title>
     <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/bodymovin/4.10.2/bodymovin_light.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
