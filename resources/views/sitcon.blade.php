@@ -48,26 +48,29 @@
     <div class="wrapper content0">
         <div class="title white"> 當天議程 </div>
         <div class="panel panel_content1">
-            <div class="pg pg_1">
+            <div class="pg pg_1" onclick="console.log('qwe')">
                 <div class="icon icon_1"></div>
                 <div class="desc_div">
-                    <h1 class="desc_title">阮揚洲</h1> {{--
-                    <p class="desc">台灣唯一Apple公司直屬學生社團。</p> --}}
+                    <h1 class="desc_title">阮揚洲</h1> 
+                    <p class="desc">第一次上架App就搶下不分類總排行冠軍</p> 
                 </div>
+                <div class="info"></div>
             </div>
-            <div class="pg pg_2">
+            <div class="pg pg_2" onclick="console.log('qwe')">
                 <div class="icon icon_2"></div>
                 <div class="desc_div">
-                    <h1 class="desc_title">陳薇涵</h1> {{--
-                    <p class="desc">20台Mac免費使還有定期聚餐活動。</p> --}}
+                    <h1 class="desc_title">陳薇涵</h1> 
+                    <p class="desc">ProgEdu<br>將DevOps概念導入</p> 
                 </div>
+                <div class="info"></div>
             </div>
-            <div class="pg pg_3">
+            <div class="pg pg_3" onclick="console.log('qwe')">
                 <div class="icon icon_3"></div>
                 <div class="desc_div">
-                    <h1 class="desc_title">謝忠穎</h1> {{--
-                    <p class="desc">專業講師都經過蘋果官方RTC認證。</p> --}}
+                    <h1 class="desc_title">謝忠穎</h1> 
+                    <p class="desc">多人連線遊戲的美術設計與程式規劃</p> 
                 </div>
+                <div class="info"></div>
             </div>
         </div>
         <div class="arrow-down btn2"></div>
@@ -86,6 +89,9 @@
         </div>
     </div>
     <script>
+    $(document).click(function(event) {
+      var text = $(event.target).text();
+    });
     var $body = $('html, body'),
       $panel = $('.panel'),
       $pContent = $('.panel__content'),
@@ -94,13 +100,13 @@
       $section1 = $('.content1'),
       $button2 = $('.btn2');
 
-    var animation = bodymovin.loadAnimation({
-      container: document.getElementById('bm'),
-      renderer: 'svg',
-      loop: true,
-      autoplay: true,
-      path: 'new.json'
-    })
+    // var animation = bodymovin.loadAnimation({
+    //   container: document.getElementById('bm'),
+    //   renderer: 'svg',
+    //   loop: true,
+    //   autoplay: true,
+    //   path: 'new.json'
+    // })
 
     setTimeout(function() { window.scrollTo((0, 0), 1) });
 
@@ -167,6 +173,7 @@
       }, 500);
       return false;
     });
+
 
     function checkAnimation() {
       var $elem = $('.pg');
@@ -350,9 +357,23 @@
       justify-content: center;
       flex-direction: column;
       opacity: 0;
+      position: relative;
       /*opacity: 1 \9;*/
       /*just in case ie*/
     }
+    /*  .pg .info{
+    z-index:555555;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    background-color:black;
+  }
+  .pg:hover .info{
+    opacity: 0;
+    background-color:white;
+  }
+*/
 
     .start {
       animation: fadeIn 1;
