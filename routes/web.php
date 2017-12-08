@@ -14,7 +14,7 @@
 Route::domain('sitcon.iosclub.tw')->group(function () {
     Route::get('/', function () {
         return view('sitcon');
-    });
+    })->name('sitcon');
 });
 
 Route::get('/', function () {
@@ -27,5 +27,5 @@ Route::get('welcome', function () {
 
 Route::get('sitcon', function () {
     return view('sitcon');
-})->name('sitcon');
+})->name('sitcon2');
 
