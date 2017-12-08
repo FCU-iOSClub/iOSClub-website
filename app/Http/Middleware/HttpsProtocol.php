@@ -15,9 +15,10 @@ class HttpsProtocol
      */
     public function handle($request, Closure $next)
     {
-        if (!$request->secure() && env('APP_ENV') !== 'debug') {
-            return redirect()->secure($request->getRequestUri());
-        }
+        if (isset($_SERVER['HTTP_CF_VISITOR'])) 
+            if (json_decode($_SERVER['HTTP_CF_VISITOR'])['schema'] == "https" && env('APP_ENV') !== 'debug') {
+                return redirect()->secure($request->getRequestUri());
+            }
 
         return $next($request);     
     }
