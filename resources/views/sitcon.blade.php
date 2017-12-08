@@ -114,7 +114,6 @@
   //   path: 'new.json'
   // })
 
-  setTimeout(function() { window.scrollTo((0, 0), 1) });
 
 
   function initTilt() {
