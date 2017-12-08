@@ -244,7 +244,6 @@
   }
 
   .arrow-down {
-    margin-top: 5%;
     border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
@@ -252,16 +251,16 @@
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     cursor: pointer;
+    bottom: 5%;
+    position: absolute;
   }
 
   .button.register {
+    bottom: 10%;
+    position: absolute;
+
     border: 0;
     background-color: #FFD800;
-  }
-
-  .button.register:hover {
-    background-color: #FFD800;
-    color: white;
   }
 
   @media all and (min-width: 320px) and (max-width: 480px) {
@@ -511,6 +510,7 @@
     padding: 5vh 5%;
     overflow: hidden;
     background-color: blueviolet;
+    position: relative;
   }
 
   .wrapper.content0 {
