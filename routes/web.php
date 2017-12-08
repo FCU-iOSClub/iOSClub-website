@@ -17,15 +17,16 @@ Route::domain('sitcon.iosclub.tw')->group(function () {
     })->name('sitcon');
 });
 
-Route::get('/', function () {
-    return view('home')->with(['title'=>'iosclub']);
-})->name('home');
+Route::domain('iosclub.tw')->group(function () {
+    Route::get('/', function () {
+        return view('home')->with(['title'=>'iosclub']);
+    })->name('home');
 
-Route::get('welcome', function () {
-    return view('welcome');
-})->name('welcome');
+    Route::get('welcome', function () {
+        return view('welcome');
+    })->name('welcome');
 
-Route::get('sitcon', function () {
-    return view('sitcon');
-})->name('sitcon2');
-
+    Route::get('sitcon', function () {
+        return view('sitcon');
+    })->name('sitcon2');
+}
