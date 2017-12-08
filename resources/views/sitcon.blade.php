@@ -88,7 +88,7 @@
     <div class="wrapper content1 ">
         <div class="title "> <span class="blueviolet">小提醒</span> </div>
         <div class="panel panel_content2 zindex9999">
-            <p class="p-m0 gift-content mt-2">當天將舉辦交換禮物，想參加的人可以帶價值 100 NT的禮物來交換哦，幹部們也提供一把 Ducky One2 地平線，當作驚喜跟大家一起交換，不要錯過摟！！！</p>
+            <p class="p-m0 gift-content mt-2">當天將舉辦交換禮物，想參加的人可以帶價值 100 NT的禮物來交換哦，幹部們也提供一把 <span class="yellow">Ducky One2</span> 地平線，當作驚喜跟大家一起交換，不要錯過摟！！！</p>
         </div>
         <div class="gift">
             <div class="price"></div>
@@ -401,8 +401,13 @@
       transform: translateY(-50%);
       margin: auto 0;
       width: 100%;
+      font-size: 2.5rem;
     }
-
+    @media all and (max-width: 480px) {
+    .pg .info div p {
+      font-size: 1.2rem;
+    }
+}
     .start {
       animation: fadeIn 1;
       animation-fill-mode: forwards;
@@ -531,6 +536,9 @@
       position: relative;
     }
 
+    .yellow{
+      color:#FFD800;
+    }
     .white {
       color: white;
     }
