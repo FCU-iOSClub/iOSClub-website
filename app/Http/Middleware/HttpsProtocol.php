@@ -16,7 +16,7 @@ class HttpsProtocol
     public function handle($request, Closure $next)
     {
         if (isset($_SERVER['HTTP_CF_VISITOR'])) 
-            if (json_decode($_SERVER['HTTP_CF_VISITOR'])->scheme == "https" && env('APP_ENV') !== 'debug') {
+            if (json_decode($_SERVER['HTTP_CF_VISITOR'])->scheme != "https" && env('APP_ENV') !== 'debug') {
                 return redirect()->secure($request->getRequestUri());
             }
 
