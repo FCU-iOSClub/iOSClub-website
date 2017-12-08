@@ -29,4 +29,4 @@ Route::domain('iosclub.tw')->group(function () {
     Route::get('sitcon', function () {
         return view('sitcon');
     })->name('sitcon2');
-}
+});
