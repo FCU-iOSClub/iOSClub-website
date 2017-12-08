@@ -88,7 +88,7 @@
   <div class="wrapper content1 ">
     <div class="title "> <span class="blueviolet">小提醒</span> </div>
     <div class="panel panel_content2 zindex9999">
-      <p class="p-m0 gift-content mt-2">當天將舉辦交換禮物，想參加的人可以帶價值 100 NT的禮物來交換哦，幹部們也提供一把 <span class="yellow">Ducky One2</span> 地平線，當作驚喜跟大家一起交換，不要錯過摟！！！</p>
+      <p class="p-m0 gift-content mt-2">當天將舉辦交換禮物，想參加的人可以帶價值 NT100 的禮物來交換哦，幹部們也提供一把 <span class="yellow">Ducky One2</span> 地平線，當作驚喜跟大家一起交換，不要錯過摟！！！</p>
     </div>
     <div class="gift">
       <div class="price"></div>
