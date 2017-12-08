@@ -37,7 +37,7 @@
                                     <a class="js-scroll-trigger" href="{{route('welcome')}}">宣傳</a>
                                 </li> --}}
                                 <li>
-                                    <a class="js-scroll-trigger" href="{{route('sitcon')}}">中區定期聚</a>
+                                    <a class="js-scroll-trigger" href="https://{{route('sitcon')}}">中區定期聚</a>
                                 </li>
                                 {{--
                                 <li>
