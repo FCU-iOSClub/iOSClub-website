@@ -26,7 +26,6 @@
 </head>
 
 <body>
-  {{-- <a href="{{route('home')}}">go</a> --}}
   <div class="wrapper">
     <div class="panel">
       <div class="panel__content-col">
@@ -45,6 +44,7 @@
     </div>
     <div class="button register" onclick="window.open('https://sitcon.kktix.cc/events/taichung-meeting-22', '_blank')"> 報名 </div>
     <div class="arrow-down btn1"></div>
+    <a href="{{route('home')}}" style="position: absolute;top:3%;left:3%">回首頁</a>
   </div>
   <div class="wrapper content0">
     <div class="title white"> 當天議程 </div>
@@ -225,7 +225,9 @@
     margin: 0;
   }
 
-
+  a{
+    text-decoration: none;
+  }
 
   body {
     background-color: white;
