@@ -49,7 +49,7 @@
   <div class="wrapper content0">
     <div class="title white"> 當天議程 </div>
     <div class="panel panel_content1">
-      <div class="pg pg_1" onclick="console.log('qwe')">
+      <div class="pg pg_1">
         <div class="icon icon_1"></div>
         <div class="desc_div">
           <h1 class="desc_title">阮揚洲</h1>
@@ -60,18 +60,18 @@
           </div>
         </div>
       </div>
-      <div class="pg pg_2" onclick="console.log('qwe')">
+      <div class="pg pg_2">
         <div class="icon icon_2"></div>
         <div class="desc_div">
           <h1 class="desc_title">陳薇涵</h1>
         </div>
         <div class="info">
           <div>
-            <p>ProgEdu 將 DevOps 概念導入</p>
+            <p>ProgEdu: 將 DevOps 概念導入程式作業版控平台</p>
           </div>
         </div>
       </div>
-      <div class="pg pg_3" onclick="console.log('qwe')">
+      <div class="pg pg_3">
         <div class="icon icon_3"></div>
         <div class="desc_div">
           <h1 class="desc_title">謝忠穎</h1>
