@@ -30,3 +30,17 @@ Route::domain('iosclub.tw')->group(function () {
         return view('sitcon');
     })->name('sitcon2');
 });
+
+Route::domain('127.0.0.1')->group(function () {
+    Route::get('/', function () {
+        return view('home')->with(['title'=>'iosclub']);
+    });
+
+    Route::get('welcome', function () {
+        return view('welcome');
+    });
+
+    Route::get('sitcon', function () {
+        return view('sitcon');
+    });
+});

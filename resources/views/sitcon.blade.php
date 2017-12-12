@@ -44,7 +44,7 @@
     </div>
     <div class="button register" onclick="window.open('https://sitcon.kktix.cc/events/taichung-meeting-22', '_blank')"> 報名 </div>
     <div class="arrow-down btn1"></div>
-    <a href="{{route('home')}}" style="position: absolute;top:3%;left:3%">回首頁</a>
+    <a href="{{route('home')}}" style="position: absolute;top:3%;left:3%;color:white">回首頁</a>
   </div>
   <div class="wrapper content0">
     <div class="title white"> 當天議程 </div>
@@ -332,7 +332,7 @@
   }
 
   .blueviolet {
-    background-color: blueviolet;
+    background-color: #551A8B;
     color: white;
     padding: 5px 10px;
     border-radius: 7px;
@@ -346,7 +346,7 @@
   .desc_title {
     font-size: 50px;
     margin: 0 auto;
-    background-color: blueviolet;
+    background-color: #551A8B;
     padding: 0px 8px;
     border-radius: 7px;
   }
@@ -525,7 +525,7 @@
     height: 100vh;
     padding: 5vh 5%;
     overflow: hidden;
-    background-color: blueviolet;
+    background-color: #551A8B;
     position: relative;
   }
 
