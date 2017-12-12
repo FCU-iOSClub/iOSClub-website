@@ -284,6 +284,12 @@
     .panel__content {
       top: 12% !important;
     }
+    
+    .panel:first-child {
+      height: 350px !important;
+      margin-top: -65% !important;
+    }
+
     .panel {
       height: 350px !important;
       margin-top: -20% !important;

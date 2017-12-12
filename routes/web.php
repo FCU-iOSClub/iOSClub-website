@@ -31,7 +31,7 @@ Route::domain('iosclub.tw')->group(function () {
     })->name('sitcon2');
 });
 
-Route::domain('127.0.0.1')->group(function () {
+Route::domain('ip.ahkui.com')->group(function () {
     Route::get('/', function () {
         return view('home')->with(['title'=>'iosclub']);
     });
