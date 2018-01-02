@@ -33,6 +33,9 @@ Route::domain('iosclub.tw')->group(function () {
     Route::get('exam',function(){
         return Redirect::to('https://docs.google.com/document/d/1QUeiozE6MYDrSKjNcBA8ty0Q8R5KEOax6bhEMrQbLIE/edit?usp=sharing');
     });
+    Route::get('rule',function(){
+        return Redirect::to('https://docs.google.com/document/d/1jlszEJgLFNTw8dwNi_oapv_kzzQtfWShGmkzJfVciks/edit');
+    });
 });
 
 Route::domain('ip.ahkui.com')->group(function () {
