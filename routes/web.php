@@ -29,6 +29,10 @@ Route::domain('iosclub.tw')->group(function () {
     Route::get('sitcon', function () {
         return view('sitcon');
     })->name('sitcon2');
+
+    Route::get('exam',function(){
+        return Redirect::to('https://docs.google.com/document/d/1QUeiozE6MYDrSKjNcBA8ty0Q8R5KEOax6bhEMrQbLIE/edit?usp=sharing');
+    });
 });
 
 Route::domain('ip.ahkui.com')->group(function () {
