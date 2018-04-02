@@ -17,7 +17,7 @@ try {
 
     require('bootstrap');
     require('./jqBootstrapValidation.js');
-    // require('../../../node_modules/jquery.stellar/jquery.stellar.js');
+    // require('jquery.stellar/jquery.stellar.js')($);
     // window.Stellar = require('./guardian/jquery.stellar.min');
 
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
