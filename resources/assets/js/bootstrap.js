@@ -6,10 +6,11 @@ window._ = require('lodash');
  * code may be modified to fit the specific needs of your application.
  */
 try {
-    window.$ = window.jQuery = require('./guardian/jquery.min.js');
+    window.$ = window.jQuery = require('jquery');
     window.CLUB = require('./guardian/main.js');
     window.Swipe = require('./Swipe.js');
-    window.Popper = require('../../../node_modules/popper.js/dist/umd/popper.js');
+    window.Popper = require('popper.js');
+    window.Stellar = require('stellar.js');
     require('../../../node_modules/jquery.easing/jquery.easing.1.3.js');
     require('./guardian/superfish.js');
     require('./guardian/jquery.waypoints.min.js');

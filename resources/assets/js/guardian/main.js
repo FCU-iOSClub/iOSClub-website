@@ -93,6 +93,7 @@
         offcanvas();
         mobileMenuOutsideClick();
         contentWayPoint();
+        $.stellar();
         $(window).scroll(function() {
             if ($("#fh5co-header-section").offset().top > 1) {
                 $("#fh5co-header-section").addClass("navbar-shrink");

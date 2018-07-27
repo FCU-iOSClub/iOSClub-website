@@ -11,5 +11,15 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js').sourceMaps()
-   .sass('resources/assets/sass/app.scss', 'public/css');
+mix
+    .js('resources/assets/js/app.js', 'public/js')
+    .sass('resources/assets/sass/app.scss', 'public/css')
+    .copyDirectory('resources/assets/fonts/apple', 'public/fonts/apple')
+    .styles([
+        'public/fonts/apple/font.css',
+        'public/css/app.css'
+    ], 'public/css/all.css')
+    .scripts([
+        'resources/assets/js/guardian/modernizr-2.6.2.min.js',
+        'public/js/app.js'
+    ], 'public/js/all.js');
