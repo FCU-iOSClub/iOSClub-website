@@ -400,7 +400,7 @@
                                 <a href="https://www.facebook.com/FCU.iOSClub/"><i class="icon-facebook2"></i></a> {{-- <a href="#"><i class="icon-instagram"></i></a> --}} {{-- <a href="#"><i class="icon-dribbble2"></i></a> --}} {{-- <a href="#"><i class="icon-youtube"></i></a> --}}
                             </p>
                             <p>Copyright © 逢甲大學Feng Chia University All Rights Reserved.
-                                <br>Made with <i class="icon-heart3"></i> by iOS Club AhKui</p>
+                                <br>Made with <i class="icon-heart3"></i> by iOS Club 網管</p>
                         </div>
                     </div>
                 </div>

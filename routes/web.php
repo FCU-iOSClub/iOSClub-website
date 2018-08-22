@@ -16,7 +16,7 @@ Route::domain('sitcon.iosclub.tw')->group(function () {
         return view('sitcon');
     })->name('sitcon');
 });
-
+Route::domain('iosclub.tw')->group(function () {
 Route::get('/', function () {
     return view('home')->with(['title'=>'iosclub']);
 })->name('home');
@@ -31,4 +31,4 @@ Route::get('exam',function(){
 Route::get('rule',function(){
     return Redirect::to('https://docs.google.com/document/d/1jlszEJgLFNTw8dwNi_oapv_kzzQtfWShGmkzJfVciks/edit');
 });
-
+});
