@@ -8,14 +8,14 @@
     <link type="image/png" href="img/iosclub-logo.png" rel="icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{csrf_token()}}">
-    <link href="{{asset('css/all.css')}}" rel="stylesheet">
+    <link href="/css/all.css" rel="stylesheet">
 </head>
 
 <body>
     <div id="app">
         @yield('content')
     </div>
-    <script src="{{asset('js/all.js')}}"></script>
+    <script src="/js/all.js"></script>
 </body>
 
 </html>
