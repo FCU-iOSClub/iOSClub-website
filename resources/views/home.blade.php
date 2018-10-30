@@ -227,7 +227,7 @@
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> --}}
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-6">
+                    <div class="col-12 col-sm-6 col-md-4">
                         <div class="services animate-box">
                             {{-- <span><i class="icon-mobile"></i></span> --}}
                             <figure>
@@ -247,7 +247,7 @@
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> --}}
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-6">
+                    <div class="col-12 col-sm-6 col-md-4">
                         <div class="services animate-box">
                             {{-- <span><i class="icon-video"></i></span> --}}
                             <figure>
