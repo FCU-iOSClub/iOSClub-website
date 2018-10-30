@@ -243,7 +243,7 @@
                             <figure>
                                 <img src="img/friday.png" width="100%">
                             </figure>
-                            <h3>RTC</h3> {{--
+                            <h3>基礎 待定…</h3> {{--
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> --}}
                         </div>
                     </div>
@@ -253,7 +253,7 @@
                             <figure>
                                 <img src="img/saturday.png" width="100%">
                             </figure>
-                            <h3>週六 進階</h3>{{--
+                            <h3>進階 待定…</h3>{{--
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> --}}
                         </div>
                     </div>
