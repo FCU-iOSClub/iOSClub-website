@@ -227,27 +227,27 @@
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> --}}
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4">
+                    <div class="col-12 col-sm-6 col-md-6">
                         <div class="services animate-box">
                             {{-- <span><i class="icon-mobile"></i></span> --}}
                             <figure>
-                                <img src="img/tuesday.png" width="100%">
+                                <img src="img/monday.png" width="100%">
                             </figure>
-                            <h3>週二 入門</h3> {{--
+                            <h3>週一 入門</h3> {{--
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> --}}
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4">
+                    <!--div class="col-12 col-sm-6 col-md-4">
                         <div class="services animate-box">
                             {{-- <span><i class="icon-tools"></i></span> --}}
                             <figure>
                                 <img src="img/friday.png" width="100%">
                             </figure>
-                            <h3>週五 基礎</h3> {{--
+                            <h3>RTC</h3> {{--
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> --}}
                         </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4">
+                    </div-->
+                    <div class="col-12 col-sm-6 col-md-6">
                         <div class="services animate-box">
                             {{-- <span><i class="icon-video"></i></span> --}}
                             <figure>
