@@ -35,10 +35,10 @@
                                 </li>
                                 {{-- <li>
                                     <a class="js-scroll-trigger" href="{{route('welcome')}}">宣傳</a>
-                                </li> --}}
+                                </li> 
                                 <li>
                                     <a class="js-scroll-trigger" href="https://sitcon.iosclub.tw">中區定期聚</a>
-                                </li>
+                                </li> --}}
                                 {{--
                                 <li>
                                     <a href="portfolio.html" class="fh5co-sub-ddown">Projects</a>
